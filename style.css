@@ -54,6 +54,7 @@ body {
 .menuitem img{
     height: 30px;
     filter: invert(1);
+    margin-right: 10px;
 }
 
 .sidebar button:hover {
