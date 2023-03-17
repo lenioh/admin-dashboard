@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    height: 100dvh;
+}
+
+/* SIDEBAR */
+
+.logo {
+    height: 40px;
+    filter: invert(1);
+
+}
+
+.companylogo {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 30px;
+    color: rgb(210, 210, 210);
+    background-color: rgb(11, 86, 113);
+}
+
+.sidebar button {
+    font-size: 25px;
+    color: rgb(210, 210, 210);
+    background-color: rgb(11, 86, 113);
+    border: none;
+    padding: 10px 15px;
+    margin: 10px 20px;
+    text-align: left;
+    width: fit-content;
+}
+
+.menuitem {
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuitem img{
+    height: 30px;
+    filter: invert(1);
+}
+
+.sidebar button:hover {
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+/* SIDEBAR */
